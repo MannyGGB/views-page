@@ -19,6 +19,7 @@ export default async function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>Time and Views Page!</h1>
       <h2>Now with more vitamins!</h2>
+      <h3>And a whole load of frustration!</h3>
       <p>This has been viewed {result.rows[0].views}</p>
       <p>The time is : {readableDate}</p>
     </main>
